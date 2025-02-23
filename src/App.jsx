@@ -1,12 +1,16 @@
 import 'normalize.css' 
 import './App.css'
 import Sidebar from './components/sidebar/Sidebar'
+import Projects from './components/projects/Projects'
 
 function App() {
 
   return (
     <>
-      <Sidebar />
+      <div className='container'>
+        <Sidebar />
+        <Projects />
+      </div>
     </>
   )
 }
