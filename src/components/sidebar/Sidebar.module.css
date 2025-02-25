@@ -19,6 +19,13 @@
     align-items: center;
 
     & img {
+        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.418);
+        border-radius: 100%;
         width: 200px;
     }
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
 }
