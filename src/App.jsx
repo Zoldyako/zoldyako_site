@@ -7,9 +7,23 @@ function App() {
 
   return (
     <>
-      <div className='container'>
-        <Sidebar />
-        <Projects />
+      <Sidebar />
+      <div className='projects-container'>
+        <Projects 
+          name="Project 1"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, minima."
+          img="https://placehold.co/150/png"
+        />
+        <Projects 
+          name="Project 2"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, minima."
+          img="https://placehold.co/150/png"
+        />
+        <Projects 
+          name="Project 3"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, minima."
+          img="https://placehold.co/150/png"
+        />
       </div>
     </>
   )
