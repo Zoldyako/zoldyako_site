@@ -2,6 +2,8 @@ import 'normalize.css'
 import './App.css'
 import Sidebar from './components/sidebar/Sidebar'
 import Projects from './components/projects/Projects'
+import project_one from './assets/imgs/etch_a_sketch.png'
+import perfil from './assets/imgs/foto_perfil.png'
 
 function App() {
 
@@ -10,19 +12,16 @@ function App() {
       <Sidebar />
       <div className='projects-container'>
         <Projects 
-          name="Project 1"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, minima."
-          img="https://placehold.co/150/png"
+          name="Etch a Sketch"
+          desc="The Odin Project's etch a sketch is a challenge meant to put to work the concepts that were taught up to that point in the course."
+          img={project_one}
+          link="https://github.com/Zoldyako/etch-a-sketch"
         />
         <Projects 
-          name="Project 2"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, minima."
-          img="https://placehold.co/150/png"
-        />
-        <Projects 
-          name="Project 3"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, minima."
-          img="https://placehold.co/150/png"
+          name="My Personal site (this one :P)"
+          desc="A basic site made to display my current skills with programming. Right now it is made with React/Vite."
+          img={perfil}
+          link="https://github.com/Zoldyako/zoldyako_site"
         />
       </div>
     </>
