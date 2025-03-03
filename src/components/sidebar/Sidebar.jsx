@@ -1,8 +1,8 @@
 import styles from './Sidebar.module.css'
 import Socials from '../socials/Socials'
-import photo from '../../assets/foto_perfil.png'
-import git_icon from '../../assets/github_icon_white.svg'
-import linkedin_icon from '../../assets/linkedin_icon_white.svg'
+import photo from '../../assets/imgs/foto_perfil.png'
+import git_icon from '../../assets/icons/github_icon_white.svg'
+import linkedin_icon from '../../assets/icons/linkedin_icon_white.svg'
 
 export default function Sidebar() {
     return (
