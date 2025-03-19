@@ -38,7 +38,7 @@
         margin: 8px 0;
         height: 54px;
         width: 54px;
-    
+
         img {
             width: 54px;
             height: 54px;
@@ -50,10 +50,50 @@
         width: 60px;
         height: 60px;
         transition: .200s;
-    
+
         img {
             width: 60px;
             height: 60px;
         }
+    }
+}
+
+
+@media (width <= 1000px) {
+    .sidebar {
+        width: 150px;
+        padding: 24px 16px;
+        transition: .100s;
+    }
+
+    .profile img {
+        width: 80px;
+    }
+
+    .socials div {
+        width: 42px;
+        height: 42px;
+
+        & img {
+            width: 42px;
+            height: 42px;
+        }
+    }
+}
+
+
+@media (width <= 600px) {
+
+    .sidebar {
+        width: 100px;
+        transition: .100s;
+    }
+
+    .socials {
+        flex-direction: column;
+    }
+
+    .skills {
+        display: none;
     }
 }
