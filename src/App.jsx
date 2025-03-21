@@ -5,7 +5,7 @@ import Projects from './components/projects/Projects'
 import project_one from './assets/imgs/etch_a_sketch.png'
 import perfil from './assets/imgs/foto_perfil.png'
 
-function App() {
+export default function App() {
 
   return (
     <>
@@ -27,5 +27,3 @@ function App() {
     </>
   );
 }
-
-export default App
