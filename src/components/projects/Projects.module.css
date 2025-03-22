@@ -30,6 +30,14 @@ h2, p {
     margin: 0;
 }
 
+& h2 {
+    font-size: 15pt;
+}
+
+& p {
+    font-size: 12pt;
+}
+
 .desc {
     color: rgb(189, 189, 189);
 }
@@ -52,14 +60,8 @@ a {
     border-left: 1px solid rgb(95, 95, 95);
 }
 
-@media (width <= 550px) {
+@media (width <= 820px) {
     .project_component {
-        grid-template-columns: 1fr;
-        grid-template-rows: .5fr 1fr;
-
-        max-width: 300px;
-        max-height: 400px;
-
         & h2 {
             font-size: 13pt;
         }
@@ -67,6 +69,16 @@ a {
         & p {
             font-size: 11pt;
         }
+    }
+}
+
+@media (width <= 550px) {
+    .project_component {
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 1fr;
+
+        max-width: 300px;
+        max-height: 400px;
     }
 
     .about {
