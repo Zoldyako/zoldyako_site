@@ -12,16 +12,16 @@ export default function App() {
       <Sidebar/>
       <div className='projects-container '>
         <Projects
-          name="Etch a Sketch"
-          desc="The Odin Project's etch a sketch is a challenge meant to put to work the concepts that were taught up to that point in the course."
-          img={project_one}
-          link="https://github.com/Zoldyako/etch-a-sketch"
-        />
-        <Projects
           name="My Personal site (this one :P)"
           desc="A basic site made to display my current skills with programming. Right now it is made with React/Vite."
           img={perfil}
           link="https://github.com/Zoldyako/zoldyako_site"
+        />
+        <Projects
+          name="Etch a Sketch"
+          desc="The Odin Project's etch a sketch is a challenge meant to put to work the concepts that were taught up to that point in the course."
+          img={project_one}
+          link="https://github.com/Zoldyako/etch-a-sketch"
         />
       </div>
     </>
