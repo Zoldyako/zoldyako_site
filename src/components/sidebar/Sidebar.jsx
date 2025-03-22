@@ -13,11 +13,11 @@ export default function Sidebar() {
                 </div>
                 <div className={styles.socials}>
                     <div className='linkedin'>
-                        <a 
-                            href={"https://www.linkedin.com/in/jose-victor-dias-rodrigues/"} 
-                            target="_blank" 
+                        <a
+                            href={"https://www.linkedin.com/in/jose-victor-dias-rodrigues/"}
+                            target="_blank"
                             rel="noopener noreferrer">
-                            
+
                             <img
                                 src={linkedin_icon}
                                 alt={"José Linkedin Account"}
@@ -25,11 +25,11 @@ export default function Sidebar() {
                         </a>
                     </div>
                     <div className='github'>
-                        <a 
-                            href={"https://github.com/Zoldyako"} 
-                            target="_blank" 
+                        <a
+                            href={"https://github.com/Zoldyako"}
+                            target="_blank"
                             rel="noopener noreferrer">
-                            
+
                             <img
                                 src={git_icon}
                                 alt={"José Linkedin Account"}
@@ -38,11 +38,15 @@ export default function Sidebar() {
                     </div>
                 </div>
                 <div className={styles.skills}>
-                    <h2>Skills:</h2>
-                    <p>HTML/CSS/JavaScript</p>
-                    <p>NodeJS/Vite</p>
+                    <h2>My Dev skills:</h2>
+                    <br></br>
+                    <p>HTML/CSS</p>
+                    <p>JavaScript</p>
+                    <p>NodeJS</p>
+                    <p>Vite</p>
                     <p>React</p>
-                    <p>MySQL/MongoDB</p>
+                    <p>MySQL</p>
+                    <p>MongoDB</p>
                 </div>
             </div>
         </>
