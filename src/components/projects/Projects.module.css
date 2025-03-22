@@ -56,6 +56,17 @@ a {
     .project_component {
         grid-template-columns: 1fr;
         grid-template-rows: .5fr 1fr;
+
+        max-width: 300px;
+        max-height: 400px;
+
+        & h2 {
+            font-size: 13pt;
+        }
+
+        & p {
+            font-size: 11pt;
+        }
     }
 
     .about {
