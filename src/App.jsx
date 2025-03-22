@@ -12,7 +12,7 @@ export default function App() {
       <Sidebar/>
       <div className='projects-container '>
         <Projects
-          name="My Personal site (this one :P)"
+          name="My Personal site (this one)"
           desc="A basic site made to display my current skills with programming. Right now it is made with React/Vite."
           img={perfil}
           link="https://github.com/Zoldyako/zoldyako_site"

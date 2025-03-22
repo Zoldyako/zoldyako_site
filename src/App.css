@@ -16,4 +16,8 @@
     #root {
         flex-direction: column;
     }
+
+    .projects-container {
+        margin-bottom: 56px;
+    }
 }
