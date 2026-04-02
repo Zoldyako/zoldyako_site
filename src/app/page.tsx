@@ -12,19 +12,21 @@ export default function Home() {
                     <h2 className="text-3xl pb-2">My links:</h2>
                     <ul>
                         <li>
-                            🟆
+                            🟆{" "}
                             <a
                                 href="https://github.com/Zoldyako"
                                 target="_blank"
+                                className="underline text-amber-300 hover:text-amber-100"
                             >
                                 Github
                             </a>
                         </li>
                         <li>
-                            🟆
+                            🟆{" "}
                             <a
                                 href="https://www.linkedin.com/in/jose-vdr/"
                                 target="_blank"
+                                className="underline text-amber-300 hover:text-amber-100"
                             >
                                 Linkedin
                             </a>
